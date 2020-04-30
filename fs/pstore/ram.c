@@ -111,10 +111,7 @@ static int ramoops_pstore_open(struct pstore_info *psi)
 	cxt->dump_read_cnt = 0;
 	cxt->console_read_cnt = 0;
 	cxt->ftrace_read_cnt = 0;
-<<<<<<< HEAD
-=======
 	cxt->pmsg_read_cnt = 0;
->>>>>>> f505a5c... Enable pstore and update it to support memory reservation in DT
 	return 0;
 }
 
